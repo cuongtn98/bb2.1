@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    <!--    bai 1-->
+    let myColor = ["red", "green", "white", "black"];
+    let a = myColor.join(",");
+    console.log(a)
+    //bai 2
+    let numb = 0;
+    8
+    prompt("");
+    let str = numb.toString();
+    const result = [str[0]];
+    for (let x = 1; x < str.length; x++) {
+        if ((str[x - 1] % 2 === 0) && (str[x] % 2 === 0)) {
+            result.push('-', str[x]);
+        } else {
+            result.push(str[x]);
+        }
+    }
+    console.log(result.join(''));
+    // bai 3
+    let textin = prompt('enter your name :');
+    b = textin.split("");
+    for (let i = 0; i < b.length; i++) {
+        if (b[i] == b[i].toUpperCase()) {
+            b[i] = b[i].toLowerCase()
+        } else if (b[i] == b[i].toLowerCase()) {
+
+            b[i] = b[i].toUpperCase()
+        }
+    }
+    let fre = b.join("")
+    alert(fre);
+
+</script>
+</body>
+</html>
